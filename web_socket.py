@@ -1,7 +1,7 @@
 import socket
 my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 my_socket.connect(('data.pr4e.org',80))
-command = 'GET http://data.pr4e.org/romeo.txt HTTP/1.0\n\n'.encode()
+command = 'GET hhttp://data.pr4e.org/intro-short.txtHTTP/1.0\n\n'.encode()
 my_socket.send(command)
 
 while True:
